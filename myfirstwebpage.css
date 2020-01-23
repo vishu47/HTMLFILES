@@ -1,20 +1,39 @@
 body{
-    background-image: image(labour.jpeg);
+    background-image: url("labour.jpg");
 }
 h1{
-    color: rgb(153, 0, 255);
+    color: rgb(21, 4, 247);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;   
-    border: 1px solid blue; 
+    border: 1px solid white; 
 }
 p{
-   color: rgb(231, 15, 51);
+    color: black;
     font-family: 'Courier New', Courier, monospace;
-    border: 1px solid red; 
+    border: 1px solid white; 
 }
 img{
-    border: 1px solid black;
+    border: 1px solid rgb(247, 3, 3);
 }
-input{
-    border:1px solid rgb(8, 240, 8)    
+
+#effect:hover{
+    transform: rotate(10deg);
+} 
+#effect{
+       margin-left: 50px;
+} 
+.login{
+        border: 1px solid  black; 
+        width: 265px;
+        border-radius: 6px;
+        margin-top: 13px;
+}
+#username1{
+    margin-left: 4px;
+}
+#username2{
+    margin-left: 12px;
+}
+#username3{
+    margin-left: 11px;
 }
